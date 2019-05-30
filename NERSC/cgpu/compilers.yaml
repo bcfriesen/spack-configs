@@ -66,16 +66,16 @@ compilers:
 - compiler:
     environment: {}
     extra_rpaths:
-      - /opt/esslurm/lib64
+    - /opt/esslurm/lib64
     flags:
       cxxflags: -I/opt/esslurm/include/slurm
-      cflags:   -I/opt/esslurm/include/slurm
+      cflags: -I/opt/esslurm/include/slurm
     modules: []
     operating_system: opensuse42
     paths:
-      cc: /global/common/cori/software/gcc/9.1.0/bin/gcc
-      cxx: /global/common/cori/software/gcc/9.1.0/bin/g++
-      f77: /global/common/cori/software/gcc/9.1.0/bin/gfortran
-      fc: /global/common/cori/software/gcc/9.1.0/bin/gfortran
+      cc: /global/common/sw/cgpu/linux/opensuse42/x86_64/gcc/9.1.0/gcc/9.1.0/c4w3kto/bin/gcc
+      cxx: /global/common/sw/cgpu/linux/opensuse42/x86_64/gcc/9.1.0/gcc/9.1.0/c4w3kto/bin/g++
+      f77: /global/common/sw/cgpu/linux/opensuse42/x86_64/gcc/9.1.0/gcc/9.1.0/c4w3kto/bin/gfortran
+      fc: /global/common/sw/cgpu/linux/opensuse42/x86_64/gcc/9.1.0/gcc/9.1.0/c4w3kto/bin/gfortran
     spec: gcc@9.1.0
     target: x86_64
