@@ -257,9 +257,6 @@ packages:
     isl:
         paths:
             isl@0.12%gcc@4.8.5: /usr
-    libedit:
-        paths:
-            libedit@3.1%gcc@4.8.5: /usr
     py-setuptools:
         paths:
             py-setuptools@18.0.1%gcc@4.8.5: /usr
