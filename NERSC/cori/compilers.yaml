@@ -274,11 +274,11 @@ compilers:
     extra_rpaths: []
     flags: {}
     modules: []
-    operating_system: sles12
+    operating_system: cnl6
     paths:
       cc: /usr/bin/gcc-4.8
       cxx: /usr/bin/g++-4.8
       f77: null
       fc: null
-    spec: gcc@4.8
-    target: x86_64
+    spec: gcc@4.8.5
+    target: any
