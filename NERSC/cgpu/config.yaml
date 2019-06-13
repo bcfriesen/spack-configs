@@ -72,3 +72,5 @@ config:
   # anticipates that a significant delay indicates that the lock attempt will
   # never succeed.
   package_lock_timeout: null
+  # make concurrency limit
+  build_jobs: 8
