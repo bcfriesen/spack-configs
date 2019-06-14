@@ -5,36 +5,6 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-cray
-    - cce/8.6.0
-    operating_system: cnl6
-    paths:
-      cc: cc
-      cxx: CC
-      f77: ftn
-      fc: ftn
-    spec: cce@8.6.0
-    target: any
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
-    - PrgEnv-cray
-    - cce/8.6.2
-    operating_system: cnl6
-    paths:
-      cc: cc
-      cxx: CC
-      f77: ftn
-      fc: ftn
-    spec: cce@8.6.2
-    target: any
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
-    - PrgEnv-cray
     - cce/8.6.5
     operating_system: cnl6
     paths:
@@ -43,6 +13,51 @@ compilers:
       f77: ftn
       fc: ftn
     spec: cce@8.6.5
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - cce/8.7.4
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.4
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - cce/8.7.7
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.7
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - cce/8.7.9
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
     target: any
 - compiler:
     environment: {}
@@ -65,6 +80,21 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-gnu
+    - gcc/5.3.0
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@5.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
     - gcc/6.1.0
     operating_system: cnl6
     paths:
@@ -73,21 +103,6 @@ compilers:
       f77: ftn
       fc: ftn
     spec: gcc@6.1.0
-    target: any
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules:
-    - PrgEnv-gnu
-    - gcc/7.1.0
-    operating_system: cnl6
-    paths:
-      cc: cc
-      cxx: CC
-      f77: ftn
-      fc: ftn
-    spec: gcc@7.1.0
     target: any
 - compiler:
     environment: {}
@@ -110,44 +125,44 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-gnu
-    - gcc/5.3.0
+    - gcc/8.2.0
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: gcc@5.3.0
+    spec: gcc@8.2.0
     target: any
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
     modules:
-    - PrgEnv-gnu
-    - gcc/6.3.0
+    - PrgEnv-intel
+    - intel/16.0.3.210
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: gcc@6.3.0
+    spec: intel@16.0.3.210
     target: any
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
     modules:
-    - PrgEnv-gnu
-    - gcc/7.2.0
+    - PrgEnv-intel
+    - intel/17.0.1.132
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: gcc@7.2.0
+    spec: intel@17.0.1.132
     target: any
 - compiler:
     environment: {}
@@ -163,6 +178,36 @@ compilers:
       f77: ftn
       fc: ftn
     spec: intel@17.0.2.174
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - intel/17.0.3.191
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@17.0.3.191
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - intel/18.0.0.128
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@18.0.0.128
     target: any
 - compiler:
     environment: {}
@@ -200,14 +245,14 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-intel
-    - intel/16.0.3.210
+    - intel/18.0.3.222
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: intel@16.0.3.210
+    spec: intel@18.0.3.222
     target: any
 - compiler:
     environment: {}
@@ -215,14 +260,14 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-intel
-    - intel/17.0.3.191
+    - intel/18.0.5.274
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: intel@17.0.3.191
+    spec: intel@18.0.5.274
     target: any
 - compiler:
     environment: {}
@@ -230,14 +275,14 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-intel
-    - intel/17.0.1.132
+    - intel/19.0.0.117
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: intel@17.0.1.132
+    spec: intel@19.0.0.117
     target: any
 - compiler:
     environment: {}
@@ -245,29 +290,40 @@ compilers:
     flags: {}
     modules:
     - PrgEnv-intel
-    - intel/18.0.0.128
+    - intel/19.0.3.199
     operating_system: cnl6
     paths:
       cc: cc
       cxx: CC
       f77: ftn
       fc: ftn
-    spec: intel@18.0.0.128
+    spec: intel@19.0.3.199
     target: any
 - compiler:
     environment: {}
     extra_rpaths: []
     flags: {}
-    modules:
-    - PrgEnv-pgi
-    - pgi/2017
+    modules: []
     operating_system: cnl6
     paths:
-      cc: cc
-      cxx: CC
-      f77: ftn
-      fc: ftn
-    spec: pgi@2017
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/4.0.0/gcc/4.8.5/lrigqsx/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/4.0.0/gcc/4.8.5/lrigqsx/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@4.0.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/7.0.1/gcc/4.8.5/aufzcel/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/7.0.1/gcc/4.8.5/aufzcel/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@7.0.1
     target: any
 - compiler:
     environment: {}
@@ -280,5 +336,122 @@ compilers:
       cxx: /usr/bin/g++-4.8
       f77: null
       fc: null
-    spec: gcc@4.8.5
+    spec: gcc@4.8
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/6.0.0/gcc/4.8.5/24bjk24/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/6.0.0/gcc/4.8.5/24bjk24/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@6.0.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/8.0.0/gcc/7.3.0/6kc3bmu/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/8.0.0/gcc/7.3.0/6kc3bmu/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@8.0.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/5.0.0/gcc/4.8.5/grn2vtu/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/5.0.0/gcc/4.8.5/grn2vtu/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@5.0.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/7.0.0/gcc/4.8.5/bhvdt3h/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/7.0.0/gcc/4.8.5/bhvdt3h/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@7.0.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /global/common/sw/cray/cnl6/haswell/llvm/4.0.1/gcc/4.8.5/wvqordz/bin/clang
+      cxx: /global/common/sw/cray/cnl6/haswell/llvm/4.0.1/gcc/4.8.5/wvqordz/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@4.0.1
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: !!python/unicode '/usr/common/software/pgi/linux86-64/18.10/bin/pgcc'
+      cxx: !!python/unicode '/usr/common/software/pgi/linux86-64/18.10/bin/pgc++'
+      f77: !!python/unicode '/usr/common/software/pgi/linux86-64/18.10/bin/pgfortran'
+      fc: !!python/unicode '/usr/common/software/pgi/linux86-64/18.10/bin/pgf90'
+    spec: pgi@18.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: !!python/unicode '/global/common/cori/software/pgi/19.3/linux86-64-llvm/19.3/bin/pgcc'
+      cxx: !!python/unicode '/global/common/cori/software/pgi/19.3/linux86-64-llvm/19.3/bin/pgc++'
+      f77: !!python/unicode '/global/common/cori/software/pgi/19.3/linux86-64-llvm/19.3/bin/pgfortran'
+      fc: !!python/unicode '/global/common/cori/software/pgi/19.3/linux86-64-llvm/19.3/bin/pgf90'
+    spec: pgi@19.3
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: !!python/unicode '/global/common/cori/software/pgi/19.4/linux86-64-llvm/19.4/bin/pgcc'
+      cxx: !!python/unicode '/global/common/cori/software/pgi/19.4/linux86-64-llvm/19.4/bin/pgc++'
+      f77: !!python/unicode '/global/common/cori/software/pgi/19.4/linux86-64-llvm/19.4/bin/pgfortran'
+      fc: !!python/unicode '/global/common/cori/software/pgi/19.4/linux86-64-llvm/19.4/bin/pgf90'
+    spec: pgi@19.4
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: !!python/unicode '/global/common/cori/software/pgi/19.5/linux86-64-llvm/19.5/bin/pgcc'
+      cxx: !!python/unicode '/global/common/cori/software/pgi/19.5/linux86-64-llvm/19.5/bin/pgc++'
+      f77: !!python/unicode '/global/common/cori/software/pgi/19.5/linux86-64-llvm/19.5/bin/pgfortran'
+      fc: !!python/unicode '/global/common/cori/software/pgi/19.5/linux86-64-llvm/19.5/bin/pgf90'
+    spec: pgi@19.5
     target: any
